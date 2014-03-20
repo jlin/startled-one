@@ -1,20 +1,19 @@
-title:            Balzac
-tagline:          A beautiful theme.
-description:      Describe your website.
+title:            Winter of Text 
+tagline:          
+description:      Personal site of Jonathan Lin 
 #Comment out url when working locally to resolve base urls correctly
-url: http://jekyll.gtat.me
+#url: http://jekyll.gtat.me
 
 # Owner/author information
 owner:
-  name:           Cole Townsend
+  name:           Jonathan Lin 
   avatar:         avatar.png
-  bio:            "Aesthete & Athlete"
-  email:          cole@coletownsend.com
-  twitter:        twnsndco        
-  github:         coletownsend       
-  instagram:      ctrunsthis     
-  dribbble:       coletownsend
-  disqus:         balzac
+  bio:            "I write"
+  email:          jlin@winteroftext.ca 
+  twitter:        jlin        
+  github:         jlin
+  bitbucket:      jlin       
+  #disqus:         balzac
   # Plug in your disqus shortname!
   
 
@@ -23,11 +22,17 @@ owner:
 links:
   - title: About
     url: /about
-  - title: Github
-    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
-    external: true
-  - title: Cole Who?
-    url: http://coletownsend.com
+#  - title: text
+#    url: /text
+#  - title: sound 
+#    url: /music
+#    #wexternal: true
+#  - title: code & technology
+#    url: /code
+#  - title: partners
+#    url: /partners 
+  - title: Who?
+    url: http://twitter.com/jlin
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -52,6 +57,8 @@ kramdown:
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
+
+paginate: 6 
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
